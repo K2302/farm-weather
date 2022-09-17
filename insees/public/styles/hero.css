@@ -1,0 +1,64 @@
+.logo{
+    text-align: left;
+    display: flex;
+    padding-right: 2rem;
+    padding-left: 1rem;
+    font-size: 3rem;
+    margin-top: 0.2rem;
+    margin-left: -1rem;
+    margin-bottom: 10px;
+    /* height: rem; */
+    /* width: 500px; */
+    margin-right: auto;
+}
+
+.nav-list{
+    width: 100%;
+    display: flex;
+    margin: 0px;
+    /* align-items: center */
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1rem;
+    backdrop-filter: blur(10px);
+    background: rgba(172, 255, 47, 0.112);
+    box-shadow: 0px 2px 8px rgba(70, 70, 70, 0.566);
+}
+
+.goog-te-gadget{
+    /* background: green; */
+    position: absolute;
+}
+
+.hero{
+    background: url('../img/hero1.jpg');
+    background-size: 100% auto;
+    background-position: 0% -300px;
+    height: 100vh;
+}
+
+.nav-list li{
+    list-style: none;
+    font-size: 20px;
+    padding: 26px 39px;
+    width: 100px;
+    /* font-family: 'Manrope', sans-serif; */
+}
+
+.goog-logo-link{
+    display: none;
+}
+
+.nav-list li a{
+    text-decoration: none;
+    /* color: white; */
+    transition: 0.25s ease-in-out;
+}
+
+.cities li{
+    list-style: none;
+}
